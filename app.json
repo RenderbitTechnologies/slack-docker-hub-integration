@@ -1,0 +1,7 @@
+{
+  "name": "Docker Hub Slack integration",
+  "description": "Convert Docker Hub webhooks into Slack messages",
+  "repository": "https://github.com/RenderbitTechnologies/slack-docker-hub-integration",
+  "logo": "https://github.com/RenderbitTechnologies/slack-docker-hub-integration/raw/master/docker-logo.png",
+  "keywords": ["docker", "slack", "sinatra"]
+}
