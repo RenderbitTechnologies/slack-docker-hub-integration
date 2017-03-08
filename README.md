@@ -1,6 +1,8 @@
 Docker Hub build notifications for Slack
 ========================================
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 A tiny Sinatra app that receives webhooks from Docker Hub and re-posts them as Slack formatted hooks.
 
 There is a running version of this code on Heroku that you are welcome to use...
@@ -8,7 +10,7 @@ There is a running version of this code on Heroku that you are welcome to use...
 https://slack-docker-hub-integration.herokuapp.com/
 
 
-## Here's how to get setup...
+## Here's how to get setup
 
 1. Generate an incoming webhook in the Slack integration settings e.g. `https://hooks.slack.com/services/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`
 2. Switch the domain from `hooks.slack.com` to `slack-docker-hub-integration.herokuapp.com`
